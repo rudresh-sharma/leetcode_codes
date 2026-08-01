@@ -1,0 +1,1 @@
+SELECT email AS EmailFROM Person# Write your MySQL query statement belowGROUP BY emailHAVING COUNT(email) > 1;
