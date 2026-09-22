@@ -1,0 +1,1 @@
+        }        return binpow(x, N);    }    private double binpow(double x, long n) {                if (n == 0) {            return 1.0;        }        double half = binpow(x, n / 2);            N = -N;        if (n % 2 == 0) {            return half * half;        }        return x * half * half;    }}
